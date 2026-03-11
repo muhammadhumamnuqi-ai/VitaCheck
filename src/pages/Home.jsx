@@ -731,7 +731,11 @@ export default function Home() {
                 {/* Image */}
                 <img 
                   src="/dokterku.jpg" 
-                  alt="Dokter Profesional" 
+                  alt="Dokter Profesional"
+                  loading="lazy"
+                  decoding="async"
+                  width="600"
+                  height="600"
                   className="relative w-full h-auto rounded-3xl shadow-2xl border border-white/50 backdrop-blur-sm hover:shadow-3xl transition-all duration-500 hover:scale-105 object-cover"
                 />
               </div>

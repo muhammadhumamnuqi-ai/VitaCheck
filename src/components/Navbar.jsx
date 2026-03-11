@@ -41,6 +41,9 @@ export default function Navbar() {
               <img
                 src="/vite%20logo.png"
                 alt="VitaCheck"
+                width="36"
+                height="36"
+                decoding="async"
                 className="relative h-9 w-auto object-contain group-hover:scale-110 transition-transform duration-300"
               />
             </div>
