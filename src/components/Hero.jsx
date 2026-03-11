@@ -6,7 +6,7 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden py-20">
       {/* Background Image with Overlay */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-fixed"
+        className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage: 'url(/latar%20belakang.png)',
           filter: 'brightness(0.95) contrast(1.05)',
