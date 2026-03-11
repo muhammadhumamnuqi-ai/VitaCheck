@@ -127,7 +127,7 @@ export default function Hero() {
 
           {/* Right - Doctor Image - Enhanced */}
           <div className="relative mt-8 lg:mt-0 flex justify-center lg:justify-end animate-slideUp" style={{animationDelay: '0.4s'}}>
-            <div className="relative w-full max-w-sm lg:max-w-md group">
+            <div className="relative w-full max-w-sm lg:max-w-md aspect-[3/4] group">
               {/* Multi-layer Glow Effect */}
               <div className="absolute -inset-8 bg-gradient-to-br from-primary-400/30 via-secondary-400/20 to-primary-400/30 rounded-3xl blur-3xl -z-10 animate-float group-hover:from-primary-400/50 group-hover:via-secondary-400/40 group-hover:to-primary-400/50 transition-all duration-500"></div>
 
@@ -148,8 +148,11 @@ export default function Hero() {
               {/* Doctor Image */}
               <img 
                 src="/dokter.png" 
-                alt="Professional Doctor" 
-                className="relative w-full h-auto rounded-3xl shadow-2xl border-4 border-white backdrop-blur-sm group-hover:shadow-4xl transition-all duration-500 group-hover:scale-105 object-cover"
+                alt="Professional Doctor"
+                width="400"
+                height="533"
+                fetchPriority="high"
+                className="relative w-full h-full rounded-3xl shadow-2xl border-4 border-white backdrop-blur-sm group-hover:shadow-4xl transition-all duration-500 group-hover:scale-105 object-cover"
               />
 
               {/* Animated Bottom Info Card */}
