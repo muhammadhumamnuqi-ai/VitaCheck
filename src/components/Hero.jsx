@@ -5,13 +5,15 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden py-20">
       {/* Background Image with Overlay */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage: 'url(/latar%20belakang.png)',
-          filter: 'brightness(0.95) contrast(1.05)',
-        }}
-      ></div>
+      <img
+        src="/latar%20belakang.png"
+        alt=""
+        fetchPriority="high"
+        decoding="sync"
+        aria-hidden="true"
+        className="absolute inset-0 w-full h-full object-cover"
+        style={{ filter: 'brightness(0.95) contrast(1.05)' }}
+      />
       
       {/* Light Overlay for text contrast */}
       <div className="absolute inset-0 bg-gradient-to-r from-white/85 via-white/70 to-transparent"></div>
