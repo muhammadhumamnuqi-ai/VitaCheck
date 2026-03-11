@@ -27,7 +27,7 @@ export default function Hero() {
           <div className="space-y-6">
             {/* Headline with Creative Effects */}
             <div className="space-y-4">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight min-h-[120px] sm:min-h-[144px] lg:min-h-[216px]">
                 <span className="block text-gray-900 animate-slideUp" style={{animationDelay: '0.1s'}}>
                   Jaga Kesehatan
                 </span>
